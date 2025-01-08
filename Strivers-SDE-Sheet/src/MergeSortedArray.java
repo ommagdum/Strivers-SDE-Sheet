@@ -72,7 +72,7 @@ public class MergeSortedArray {
 		System.out.println();
 	
 		
-		
+		sc.close();
 		
 		
 	}
