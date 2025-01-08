@@ -21,24 +21,4 @@ public class RepeatAndMissingNum {
         
         return new int[] {(int) x, (int)y};
     }
-	
-	public static void main(String[] args) {
-		Scanner sc = new  Scanner(System.in);
-		int n = 0;
-		System.out.println("Enter Size Of Array : ");
-		n = sc.nextInt();
-		
-		int[] nums = new int[n+1];
-		
-		System.out.println("Enter " +n+ " Elements Ranging From 1 - " +(n - 1)+ " Repeatation Is Allowed : " );
-		for(int i = 0; i < n; i++) {
-			nums[i] = sc.nextInt();
-		}
-		
-		int[] res = repeatedNumber(nums);
-		System.out.println("Duplicate & Missing Element : ");
-		for(int i = 0; i < 2; i++) {
-			System.out.print(" "+res[i]);
-		}
-	}
 }
