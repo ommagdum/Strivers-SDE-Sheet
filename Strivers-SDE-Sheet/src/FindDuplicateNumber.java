@@ -38,6 +38,6 @@ public class FindDuplicateNumber {
 		}
 		
 		System.out.println("Duplicate Element : " + duplicate(nums));
-		
+		sc.close();
 	}
 }

@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 
 public class RepeatAndMissingNum {
 	public static int[] repeatedNumber(final int[] A) {
