@@ -23,8 +23,6 @@ public class MajorityElement {
 		
 		int[] nums = {2,2,1,1,1,2,2};
 		System.out.print("Majority Element : "+ majorityElement(nums));
-	
-
 	}
 
 }
